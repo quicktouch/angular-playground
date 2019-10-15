@@ -9,7 +9,7 @@ ng new my-app
 ng serve --open
 ```
 
-### 关于模块(摘自官网)
+## 关于模块(摘自官网)
 
 定义了名为 AppModule 的根模块，它会告诉 Angular 如何组装应用。
 这里最初只声明一个 AppComponent。
@@ -30,7 +30,7 @@ providers ——
 bootstrap —— 应用的主视图，称为根组件。它是应用中所有其它视图的宿主。只有根模块才应该设置这个 bootstrap 属性
 
 
-### 添加路由
+## 添加路由
 
 ```bash
 ng generate module app-routing --flat --module=app
